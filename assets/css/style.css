@@ -1980,14 +1980,15 @@ div.layout-style {
 }
 .pricingTable .pricing-content{
     padding: 12px 0;
-    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
     list-style: none;
 }
 .pricingTable .pricing-content li{
     background: #1f3135;
     font-size: 12px;
     line-height: 33px;
-    text-transform: uppercase;
+    /* text-transform: uppercase;*/
     margin-bottom: 20px;
 }
 .pricingTable .pricing-content li:last-child{ margin: 0; }
@@ -3116,4 +3117,3 @@ div.layout-style {
     .modal-dialog{ width: 95% !important; }
 }
 /********************************* Fin Modal ************************************/
-
